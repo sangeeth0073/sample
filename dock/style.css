@@ -1,0 +1,20 @@
+.wheel{
+    animation: myanim 1s linear infinite ;
+    transform-origin:center;
+    transform-box:fill-box ;
+  }
+
+  @keyframes myanim {
+    0%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(360deg);}
+  }
+.move{
+  position: absolute;
+  left: 0;
+ animation: movebike 6s linear infinite;
+
+}
+@keyframes movebike {
+  0%{left:0}
+  100%{left: 1000px;}
+}
